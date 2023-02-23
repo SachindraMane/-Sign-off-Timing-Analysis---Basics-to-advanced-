@@ -93,7 +93,7 @@ Reports the Timing results:
 
 ### Exercise_1:-
 
-Q1)  Find all the cells in simple_max.lib.
+### Q1)  Find all the cells in simple_max.lib.
 
  Command Used		
     
@@ -106,7 +106,7 @@ List of the cells present in the simple_max.lib
 ![cell](https://user-images.githubusercontent.com/47828728/220842521-196ed38f-006c-4df1-9dc5-07af4113483b.png)
 
 
-Q2)  Find all the pins of the cell NAND2_X1 in simple_max.lib
+### Q2)  Find all the pins of the cell NAND2_X1 in simple_max.lib
    
    
            input pins : pin("a") and pin("b")
@@ -118,5 +118,26 @@ Q2)  Find all the pins of the cell NAND2_X1 in simple_max.lib
 ![Screenshot (236)](https://user-images.githubusercontent.com/47828728/220844357-fb5b66e3-c092-40b8-ac17-ac59032fd8bb.png)
 
 
+### Q3)  What difference you see between NAND2_X1 and NAND3_X1
+
+
+![Screenshot (237)](https://user-images.githubusercontent.com/47828728/220847729-92d22015-aa0d-48e9-9475-d008808cdee0.png)
+
+
+### Q4) What is the difference between ‘simple_max.lib’ and ‘simple_min.lib’
  
+On comparing simple_max.lib and simple_min.lib file it is observed that parameter like delay, fall_transition , cell_rise , rise_transition, cell_fall etc is different in both the files. In simple_max.lib file maximum value is defined for all the parameters while in simple_min.lib minimum value is defined.
+
+
+### Exercise_2:-
+
+Other paths in run.log :-
+
+![Screenshot (241)](https://user-images.githubusercontent.com/47828728/220850350-59bc239a-0401-4bca-99e5-6c813dfbfee6.png)
+
+
+
+ 
+# Lab_3 (Day_3):-
+
 
