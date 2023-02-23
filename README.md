@@ -287,7 +287,26 @@ Common Path Pessimism Removal(CPPR) Common path pessimism removal (CPPR) is the 
 
 ![image](https://user-images.githubusercontent.com/47828728/220890631-51aa2097-e9c9-453e-af06-ef401f0f9d64.png)
 
+![image](https://user-images.githubusercontent.com/47828728/220891994-ebafdff6-3e5c-41ab-84ae-d2cf90ea2bcb.png)
 
+
+### ECO – Engineering Change Order :-
+
+In the ECO cycle, we perform various analysis one by one for every check which we need to close but not closed till PnR stage. There are specialized signoff tools that help us to analyze the issue and also suggest the changes we need to do in order to close the issue. The suggested change is captured in an eco file.
+
+			cd lab5
+			run.tcl
+
+![image](https://user-images.githubusercontent.com/47828728/220892795-7ee3f78f-6c81-4418-9ae2-ace2edfb6fb8.png)
+
+Run command
+
+			 sta run.tcl –exit | tee run.log 
+
+### Exercise :-
+#### Open Verilog file s27_eco.v, what differences you find compared to s27.v In a s27_eco.v file (verilog design code) an extra clk buffer_x3 u16 is added to design.
+
+![Screenshot (269)](https://user-images.githubusercontent.com/47828728/220900304-39a65de7-162c-4618-b4b5-facea9c0e5f9.png)
 
 
 
