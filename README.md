@@ -304,9 +304,37 @@ Run command
 			 sta run.tcl –exit | tee run.log 
 
 ### Exercise :-
-#### Open Verilog file s27_eco.v, what differences you find compared to s27.v In a s27_eco.v file (verilog design code) an extra clk buffer_x3 u16 is added to design.
+#### 1) Open Verilog file s27_eco.v, what differences you find compared to s27.v In a s27_eco.v file (verilog design code) an extra clk buffer_x3 u16 is added to design.
 
 ![Screenshot (269)](https://user-images.githubusercontent.com/47828728/220900304-39a65de7-162c-4618-b4b5-facea9c0e5f9.png)
+
+#### 2) Observe the change in slack values at timing report
+
+![Screenshot (266)](https://user-images.githubusercontent.com/47828728/220901451-894532f2-477f-4174-b3f4-c0874818975d.png)
+
+# References :
+
+1) https://vsdiat.com/
+
+2) OpenSTA Manual
+
+3) https://github.com/The-OpenROAD-Project/OpenSTA
+
+4) https://www.synopsys.com/glossary/what-is-static-timing-analysis.html
+
+# Acknowledgements :
+
+1) Vikas Sachdeva, Advisor, Tech and VLSI Coach, Trainer and Innovator at vlsideepdive.
+
+2) Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+
+# Author :
+
+Sachindra Mane , M.Tech VLSI Design (2022-24)
+
+sachindramane@yahoo.com
+
+sachindramane@gmail.com
 
 
 
