@@ -275,4 +275,19 @@ Common Path Pessimism Removal(CPPR) Common path pessimism removal (CPPR) is the 
 			cd lab4
 			sta run.tcl –exit | tee out.txt
 
+![image](https://user-images.githubusercontent.com/47828728/220889924-7ebd3922-f339-42ef-9ee2-c601562a2493.png)
+
+![image](https://user-images.githubusercontent.com/47828728/220890019-3bf78c33-ffc3-4522-ba93-20bfad2cd9aa.png)
+
+### Timing report after CPPR :-
+
+‘c2’ is node which requires CPPR Now change (following from 0 to 1)
+
+		   set sta_crpr_enabled 1
+
+![image](https://user-images.githubusercontent.com/47828728/220890631-51aa2097-e9c9-453e-af06-ef401f0f9d64.png)
+
+
+
+
 
