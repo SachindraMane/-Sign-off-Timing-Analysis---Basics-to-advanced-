@@ -154,19 +154,125 @@ out.txt file:-
 
 		                     leafpad out.txt
 				     
-![Screenshot (243)](https://user-images.githubusercontent.com/47828728/220870412-d67d19e6-9d76-4c37-82c2-33ed95edf289.png)
+![image](https://user-images.githubusercontent.com/47828728/220877941-d216ae9c-0312-4927-9219-fe8196b9f90c.png)
+
 				     
 ### Slack calculation:-
  
-Understanding the slack computation
+Understanding the slack computation ->
 
 Path for which the slack is -217.323 is shown below circuit daigram ->
 
 ![Screenshot (245)](https://user-images.githubusercontent.com/47828728/220875353-cb3d732f-bccf-4ca6-994c-baab8c9da1b6.png)
 
+## Exercise :-
+
+Change the number of paths:-
+
+![image](https://user-images.githubusercontent.com/47828728/220877629-9bd93fa6-3115-47e0-aae6-83626b47cf7e.png)
+
+![123](https://user-images.githubusercontent.com/47828728/220883755-944612e0-a304-4054-908d-3979ade5ffe5.png)
+
+
+### Path_1 
+           
+	    F1:CK -> U6 -> U4 -> U5:A1 -> U7:A2 -> F2:D
+	    
+![Screenshot (247)](https://user-images.githubusercontent.com/47828728/220882798-f98efa92-13f5-42e4-9575-a8a89e0c0bc3.png)
+
+
+### Path_2
+
+	   F1:CK -> U3 -> U4 -> U6:A2 -> U7:A1 -> F2:D
+	   
+![Screenshot (248)](https://user-images.githubusercontent.com/47828728/220882854-7c455111-24f4-482b-8634-7095c7d9e567.png)
+
+
+### Path_3
+
+	   F1:CK-> U3 -> U5:A1 -> U7:A2 -> F2:D
+
+![Screenshot (249)](https://user-images.githubusercontent.com/47828728/220882982-ed95eef9-dfac-470f-a91f-8d2d4af6fa86.png)
 
 
 
+### Path_4
 
+	  F1:CK -> U6:A1 -> U7:A1 -> F2:D
+	  
+![Screenshot (250)](https://user-images.githubusercontent.com/47828728/220883031-1ad7612a-a351-431d-90df-67a4c41b3c6c.png)
+
+	  
+### Path_5
+
+	  F1:CK -> U3 -> U5:A2 -> U7:A2 -> F2:D
+	  
+![Screenshot (251)](https://user-images.githubusercontent.com/47828728/220883200-fe88d8bb-5d81-4acb-96d0-e1ebab5c521e.png)
+
+	  
+### Path_6
+
+	  F1:CK -> U3 -> U4 -> U6:A2 -> U7:A1 -> F2:D
+	  
+![Screenshot (252)](https://user-images.githubusercontent.com/47828728/220883238-d6ec8457-2c36-47ef-8b16-0d6e0fa19584.png)
+
+	  
+### Path_7
+
+	F1:CK -> U6 -> U4 -> U5:A1 -> U7:A2 -> F2:D
+	
+![Screenshot (253)](https://user-images.githubusercontent.com/47828728/220883282-fd446223-c93c-4e13-9ce0-d234f146f3ae.png)
+
+	
+### Path_8
+
+	F1:CK -> U6:A1 -> U7:A1 -> F2:D
+	
+
+![Screenshot (254)](https://user-images.githubusercontent.com/47828728/220883322-a6799793-0354-49eb-b70c-0ff0028a3779.png)
+	
+
+## Lab_4 (Day_4):-
+
+### Clock Gating Checks
+
+Gating techniques used is ‘Active Low Clock Gating'
+
+			cd lab6
+	                leafpad run.tcl
+
+![image](https://user-images.githubusercontent.com/47828728/220886478-dba3803b-c8c6-4eeb-ba46-a0ee9439d866.png)
+
+		      
+		        sta run.tcl –exit | tee run.log
+
+
+### SLACK ON CLOCK GATING PATH REPORTED
+
+![Screenshot (256)](https://user-images.githubusercontent.com/47828728/220886943-2ea27d0b-bf7e-49ae-8e16-61c7d1b92e4b.png)
+![Screenshot (257)](https://user-images.githubusercontent.com/47828728/220887127-f4aa310c-cae4-488f-96af-af0cd57d2dc4.png)
+
+### Async Pin Checks
+ 			
+			cd lab7					 
+			leafpad run.tcl
+
+![image](https://user-images.githubusercontent.com/47828728/220887366-6c15644e-caa8-4e0e-a632-05dd8a513b8b.png)
+
+		      sta run.tcl –exit | tee run.log
+
+![Screenshot (259)](https://user-images.githubusercontent.com/47828728/220887602-c98e6719-d4d7-4acc-9a0b-3da6cbe798d7.png)
+
+
+# Lab_5 (Day_5):-
+
+Common Path Pessimism Removal(CPPR) Common path pessimism removal (CPPR) is the removal of artificially-induced pessimism between a launch and capture flip-flop pair during timing analysis by identifying the common clock path between launch and capture clock paths.
+
+![image](https://user-images.githubusercontent.com/47828728/220888622-45ada244-39ff-4036-a79c-91805c888571.png)
+
+### Timing report before CPPR :-
+
+			cd lab4
+			sta run.tcl –exit | tee out.txt
 
 
