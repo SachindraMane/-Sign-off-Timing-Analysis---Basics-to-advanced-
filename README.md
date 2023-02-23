@@ -140,4 +140,33 @@ Other paths in run.log :-
  
 # Lab_3 (Day_3):-
 
+## Running the lab:-
+ Command used:-
+ 
+		sta run.tcl -noexit | tee out.txt
+
+
+![Screenshot (242)](https://user-images.githubusercontent.com/47828728/220870802-1427c408-c07e-4885-a85e-c6446ea7698a.png)
+
+
+
+out.txt file:-
+
+		                     leafpad out.txt
+				     
+![Screenshot (243)](https://user-images.githubusercontent.com/47828728/220870412-d67d19e6-9d76-4c37-82c2-33ed95edf289.png)
+				     
+### Slack calculation:-
+ 
+Understanding the slack computation
+
+Path for which the slack is -217.323 is shown below circuit daigram ->
+
+![Screenshot (245)](https://user-images.githubusercontent.com/47828728/220875353-cb3d732f-bccf-4ca6-994c-baab8c9da1b6.png)
+
+
+
+
+
+
 
